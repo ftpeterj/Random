@@ -1,0 +1,5 @@
+port_id,name,tags,enabled,type,vlan,voice_vlan,poe_enabled
+1,Uplink_to_Firewall,uplink,True,trunk,1,,True
+2,Engineering_Desk,desktop;corp,True,access,10,110,True
+3,Conference_AP,wifi,True,trunk,1,,True
+4,Unused_Port,,False,access,999,,False
